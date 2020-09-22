@@ -4,41 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Details</title>
+    <link rel="stylesheet" href="css/styles.css">
 
-    <style>
-        #back{
-            font-family: Arial, Helvetica, sans-serif;;
-            font-weight: bold;
-            color: white;
-            padding: 8px;
-            width: fit-content;
-            background-color: salmon;
-            border: solid 3px black;
-        }
-    </style>
 </head>
-<body style="background-color: khaki;">
+<body>
     <!-- Powrót do strony głównej -->
-    <div id="back"><a href="index.html" style="text-decoration: none; color: white;"> Back </a></div>
+    <div><a href="index.html" id="back" > Back </a></div>
     <br>
-    <hr size="3" noshade color="salmon">
-    <h3>Contact details:</h3>
+    <hr>
+    <div>
+        <h3>Contact details:</h3>
+    
+        <h4>email: michal.urbanski@onet.pl</h4>
+        <h4>phone: +48 669313539</h4>
+        <h4><a href="https://www.linkedin.com/in/michal-urbanski-9307/" target="_blank">LinkedIn</a></h4>
 
-    <h4>email: michal.urbanski@onet.pl</h4>
-    <h4>phone: +48 669313539</h4>
-    <h4><a href="https://www.linkedin.com/in/michal-urbanski-9307/" target="_blank">LinkedIn</a></h4>
-    <hr size="3" noshade color="salmon"><br>
-    <h3>Contact form:</h3>
-    <form action="mailto:michal.urbanski@onet.pl" method="POST" enctype="text/plain">
-        <label>Your name:</label><br>
-        <input type="text" name="yourName"><br>
-        <label>Your email:</label><br>
-        <input type="text" name="yourEmail"><br>
-        <label>Your message:</label><br>
-        <textarea name="yourMessage" cols="100" rows="10"></textarea><br>
-        <input type="submit" value="send"><br>
+    </div>
+    <hr><br>
+    <div>
+        <h3>Contact form:</h3>
+        <form action="mailto:michal.urbanski@onet.pl" method="POST" enctype="text/plain">
+            <label>Your name:</label><br>
+            <input type="text" name="yourName"><br>
+            <label>Your email:</label><br>
+            <input type="text" name="yourEmail"><br>
+            <label>Your message:</label><br>
+            <textarea name="yourMessage" cols="100" rows="10"></textarea><br>
+            <input type="submit" value="send"><br>
+    
+        </form>
 
-    </form>
+
+    </div>
 
 </body>
 </html>
